@@ -12,8 +12,7 @@
 		<!-- button -->
 		<br>
 		<div>
-			<input class="btn btn-primary" value="Get Bacon" (click)="getBacon()" > {{num}}
-			<br>
+			<button class="btn btn-info" type="button" (click)="getBacon();">Get Bacon</button>
 		</div>
 
 		<div [hidden]="baconNumParagraphs.valid || baconNumParagraphs.pristine" class="alert alert-danger" role="alert">
